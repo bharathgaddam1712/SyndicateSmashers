@@ -5,6 +5,8 @@
     <p>
     Prodigal.AI <> KodeKurrent <br>
     <b><em>AI Voice Cloning Model Development Challenge</em></b>
+    <br>
+    <br>
    
  <a href="https://www.python.org/downloads/release/python-3120/">
     <img src="https://img.shields.io/badge/Python-3.12+-orange" alt="Python">
@@ -60,52 +62,54 @@ Our Model is an advanced text-to-speech system that uses the power of large lang
 *Clone and Install*
 
 - Clone the repo
- sh
-git clone 
-cd 
+``` sh
+git clone https://github.com/bharathgaddam1712/SyndicateSmashers.git
+cd SYNDICATE_SMASHER
+```
 
 
 - Install Conda: please see https://docs.conda.io/en/latest/miniconda.html
 - Create Conda env:
 
- sh
+``` sh
 conda create -n venv -y python=3.12
-conda activate venv
+conda venv
 pip install -r requirements.txt
+```
 
 
 
-*Model Download*
+***Model Download**
 
 Download via python:
-python
+```python
 from huggingface_hub import snapshot_download
 
 snapshot_download("SparkAudio/Spark-TTS-0.5B", local_dir="pretrained_models/Spark-TTS-0.5B")
-
+```
 
 Download via git clone:
-sh
+```sh
 mkdir -p pretrained_models
 
-## Make sure you have git-lfs installed (https://git-lfs.com)
+# Make sure you have git-lfs installed (https://git-lfs.com)
 git lfs install
 
 git clone https://huggingface.co/SparkAudio/Spark-TTS-0.5B pretrained_models/Spark-TTS-0.5B
+```
 
-
-*Basic Usage*
+**Basic Usage**
 
 You can simply run the demo with the following commands:
- sh
+``` sh
 cd example
 bash infer.sh
+```
 
 
+**Web UI Usage**
 
-*Web UI Usage*
-
-You can start the UI interface by running python webui2.py --device 0, which allows you to perform Voice Cloning and Voice Creation. Voice Cloning supports uploading reference audio or directly recording the audio.
+You can start the UI interface by running `python webui2.py --device 0`, which allows you to perform Voice Cloning and Voice Creation. Voice Cloning supports uploading reference audio or directly recording the audio.
 
 
 | *Voice Cloning* | *Voice Creation* |
