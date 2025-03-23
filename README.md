@@ -9,7 +9,7 @@
     <br>
     <br>
    
- <a href="https://www.python.org/downloads/release/python-3120/">
+    <a href="https://www.python.org/downloads/release/python-3120/">
     <img src="https://img.shields.io/badge/Python-3.12+-orange" alt="Python">
 </a>
 <a href="https://pypi.org/project/torch/2.5.1/">
