@@ -37,13 +37,10 @@ Our Model is an advanced text-to-speech system that uses the power of large lang
 ### Key Features
 
 - **Simplicity and Efficiency**: Built entirely on **Qwen2.5**, **Syndicate Smasher Model** eliminates the need for additional generation models like flow matching. Instead of relying on separate models to generate acoustic features, it **directly reconstructs audio** from the code predicted by the LLM, improving efficiency and reducing complexity.  
-- **High-Quality Voice Cloning**: Supports **zero-shot voice cloning**, allowing it to replicate a speaker's voice **without specific training data**. This is ideal for **cross-lingual and code-switching** scenarios, ensuring seamless transitions between languages and voices.  
-- **Bilingual Support**: Synthesizes speech in **both Chinese and English** with **high naturalness and accuracy**, enabling smooth **cross-lingual voice synthesis**.  
+- **High-Quality Voice Cloning**: Supports **zero-shot voice cloning**, allowing it to replicate a speaker's voice **without specific training data**. This is ideal for **cross-lingual and code-switching** scenarios, ensuring seamless transitions between lvoices.  
 - **Controllable Speech Generation**: Allows customization of **gender, pitch, and speaking rate**, making it easier to create **virtual speakers**.  
 - **User Authentication & Security**:  
   - **Sign-up/Login System** for secure access.  
-  - Each registered user receives a **unique access key** to retrieve their files securely.  
-- **Database Integration**: Stores **generated speech outputs** in a **database**, enabling users to **retrieve, manage, and access** their synthesized audio files efficiently.  
 
 
 
@@ -181,8 +178,8 @@ Shivam Jogdand
 
 | Name            | Role                  |
 |----------------|-----------------------|
-| [Utkarsh Raj](https://github.com/username1) | Deep Learning         |
-| [Bharath Gaddam](https://github.com/username2) | AI Engineer         |
-| [Sunny Kumar](https://github.com/username3) | Machine Learning     |
-| [Shivam Jogdand](https://github.com/username4) | Full-Stack Developer |
+| [Utkarsh Raj](https://github.com/theUtkarshRaj) | Deep Learning         |
+| [Bharath Gaddam](https://github.com/bharathgaddam1712) | AI Engineer         |
+| [Sunny Kumar](https://github.com/SunnyKumar28) | Machine Learning     |
+| [Shivam Jogdand](https://github.com/shivam250812) | Full-Stack Developer |
 
